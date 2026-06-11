@@ -1,0 +1,426 @@
+body {
+
+margin: 0;
+padding: 0;
+background-color: #111111;
+color: #e6e6e6;
+font-family: Georgia, serif;
+line-height: 1.7;
+
+}
+
+header {
+
+background-color: #181818;
+text-align: center;
+padding: 35px;
+border-bottom: 1px solid #333;
+
+}
+
+header h1 {
+
+font-size: 2.7em;
+letter-spacing: 4px;
+margin-bottom: 10px;
+
+}
+
+header p {
+
+max-width: 900px;
+margin: auto;
+
+}
+
+header h3 {
+
+font-weight: normal;
+margin-top: 20px;
+
+}
+
+marquee {
+
+color: #999;
+
+}
+
+nav {
+
+background-color: #151515;
+text-align: center;
+padding: 15px;
+border-bottom: 1px solid #333;
+
+}
+
+nav a {
+
+color: #d0d0d0;
+text-decoration: none;
+margin: 0 15px;
+text-transform: uppercase;
+letter-spacing: 2px;
+
+}
+
+nav a:hover {
+
+color: white;
+
+}
+
+main {
+
+display: flex;
+gap: 20px;
+margin: 30px 5%;
+
+}
+
+main section {
+
+flex: 3;
+background-color: #1b1b1b;
+padding: 25px;
+border-radius: 8px;
+
+}
+
+aside {
+
+flex: 1;
+background-color: #181818;
+padding: 20px;
+border-radius: 8px;
+
+}
+
+article {
+
+display: flex;
+gap: 20px;
+margin: 30px 5%;
+
+}
+
+article section {
+
+flex: 1;
+background-color: #1b1b1b;
+padding: 25px;
+border-radius: 8px;
+
+}
+
+#music {
+
+margin: 30px 5%;
+background-color: #1b1b1b;
+padding: 25px;
+border-radius: 8px;
+
+}
+
+.foto {
+
+    width: 450px;
+
+    max-width: 100%;
+
+    display: block;
+
+    margin: 10px auto;
+
+    border-radius: 8px;
+
+}
+
+.grid {
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 15px;
+
+}
+
+.card {
+
+width: 180px;
+background-color: #252525;
+padding: 15px;
+border-radius: 8px;
+text-align: center;
+
+}
+
+.card h3 {
+
+margin-top: 0;
+
+}
+
+h1,
+h2,
+h3 {
+
+text-align: center;
+
+}
+
+ul {
+
+padding-left: 25px;
+
+}
+
+li {
+
+margin-bottom: 10px;
+
+}
+
+blockquote {
+
+background-color: #252525;
+padding: 15px;
+border-left: 4px solid #666;
+margin: 15px 0;
+font-style: italic;
+
+}
+
+a {
+
+color: #d8d8d8;
+
+}
+
+a:hover {
+
+color: white;
+
+}
+
+hr {
+
+border: none;
+border-top: 1px solid #444;
+margin: 20px 0;
+
+}
+
+footer {
+
+text-align: center;
+padding: 25px;
+margin-top: 30px;
+background-color: #181818;
+border-top: 1px solid #333;
+
+}
+
+#contador {
+
+font-weight: bold;
+
+}
+
+
+p {
+
+text-align: center;
+
+}
+
+
+section p {
+
+
+max-width: 800px;
+
+margin-left: auto;
+
+margin-right: auto;
+```
+
+}
+
+aside {
+
+```
+text-align: center;
+```
+
+}
+
+aside p {
+
+```
+margin: 12px 0;
+```
+
+}
+
+aside h2 {
+
+```
+margin-top: 25px;
+```
+
+}
+
+
+#about {
+
+```
+text-align: center;
+```
+
+}
+
+#about p {
+
+```
+max-width: 700px;
+
+margin: 15px auto;
+```
+
+}
+
+
+.card {
+
+
+width: 180px;
+
+background-color: #252525;
+
+padding: 15px;
+
+border-radius: 8px;
+
+text-align: center;
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+
+}
+
+.card p {
+
+
+margin: 5px 0;
+
+
+}
+
+
+#ships ul,
+#philosophy ul {
+
+
+width: 90%;
+
+margin: auto;
+
+text-align: left;
+
+
+}
+
+#ships li,
+#philosophy li {
+
+
+margin-bottom: 12px;
+
+
+}
+
+
+#music {
+
+
+text-align: center;
+
+}
+
+#music ul {
+
+
+list-style: none;
+
+padding-left: 0;
+
+
+}
+
+#music li {
+
+margin: 12px 0;
+
+
+}
+
+
+blockquote {
+
+text-align: center;
+
+max-width: 700px;
+
+margin: 15px auto;
+
+background-color: #252525;
+
+padding: 15px;
+
+border-left: 4px solid #666;
+
+font-style: italic;
+
+}
+
+
+@media (max-width: 900px) {
+
+main,
+article {
+    flex-direction: column;
+}
+aside {
+    width: auto;
+}
+.foto {
+    width: 220px;
+}
+
+#about {
+
+    text-align: center;
+
+}
+
+#about .intro {
+
+    text-align: center;
+
+}
+
+#about .descripcion {
+
+    max-width: 700px;
+
+    margin: 20px auto;
+
+    text-align: center;
+
+}
